@@ -33,17 +33,6 @@ class Rectangle:
     def get_amount_inside(self,ob):
         return self.get_area() // ob.get_area()
 
-class Square(Rectangle):
-
-    def __init__(self,s):
-        super().__init__(s,s)
-    
-    def __str__(self):
-        return f'Square(side={self.width})'
-
-    def set_side(self,s):
-        self.width = s
-        self.height = s
 
 
     
