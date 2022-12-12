@@ -1,6 +1,6 @@
 import Rectangle
 
-class Square(Rectangle):
+class Square(Rectangle.Rectangle):
 
     def __init__(self,s):
         super().__init__(s,s)

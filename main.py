@@ -6,7 +6,7 @@ import Rectangle , Square
 rect = Rectangle.Rectangle(10,5)
 
 print(rect.get_area())
-rect.sets_height(3)
+rect.set_height(3)
 print(rect.get_perimeter())
 print(rect)
 print(rect.get_picture())
